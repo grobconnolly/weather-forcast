@@ -9,9 +9,12 @@
     background-color: blue;
     position: relative;
     color: white;
+    display: inline-table;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
    
 }
-
 
 .input{
     text-align: center;
@@ -35,3 +38,16 @@ input[type='submit']{
  border-color: #e7e7e7;
  border-width: 10px;
 }
+
+#searchForm1{
+    right: 30%;
+}
+
+#city {
+    left: 190%;
+}
+
+#submitWeather{
+left: 190%;
+}
+
