@@ -1,0 +1,37 @@
+.mainArea {
+
+    background-color: lightgray;
+}
+
+.day1, .day2, .day3, .day4, .day5, .day {
+    width: 220px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    color: white;
+   
+}
+
+
+.input{
+    text-align: center;
+
+}
+
+input[type='text']{
+    height: 50px;
+    width: 200px;
+    background: #e7e7e7;
+}
+
+input[type='submit']{
+    height: 50px;
+    width: 100px;
+    background: blue;
+}
+
+.forecastBox {
+ border-style: solid;
+ border-color: #e7e7e7;
+ border-width: 10px;
+}
