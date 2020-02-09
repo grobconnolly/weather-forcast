@@ -3,15 +3,20 @@ $(document).ready(function () {
 
 
 
-
-  $('#submitWeather').click(function (e) {
+//------submit weather function----------
+   $('#submitWeather').click(function(e) {
     e.preventDefault();
     var city = $('#city').val();
     searchHistory.push(city);
-    $("#history").html(searchHistory+ ' ,')
-    if (city != '') {
-
     
+    //----- append search history----------
+    console.log(searchHistory);
+    $("#history").html('');
+    searchHistory.map(function(result){
+    	$("#history").append('<li>' + result + '<br></li>');
+    });
+
+     if (city != '') {
       //---------AJAX------------
 
       $.ajax({

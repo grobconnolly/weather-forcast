@@ -73,12 +73,15 @@ left: 190%;
         width: 220px;
         height: 200px;
         background-color: #71b4e4;
-        position: relative;
         color:rgb(45, 45, 45);
         border-style: solid;
         border-color: white;
-        
-       
-       
+   
     }
+
+    #cityList{
+        background-color: white;
+    }
+
+    
 }
