@@ -8,7 +8,7 @@ $(document).ready(function () {
     e.preventDefault();
     var city = $('#city').val();
     searchHistory.push(city);
-    $("#history").html('<li>'+searchHistory+ '<br></li>')
+    $("#history").html(searchHistory+ ' ,')
     if (city != '') {
 
     
