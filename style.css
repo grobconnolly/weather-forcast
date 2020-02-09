@@ -68,4 +68,17 @@ left: 190%;
     #history {
         font-size: 14px;
     }
+
+    .day1, .day2, .day3, .day4, .day5, .day {
+        width: 220px;
+        height: 200px;
+        background-color: #71b4e4;
+        position: relative;
+        color:rgb(45, 45, 45);
+        border-style: solid;
+        border-color: white;
+        
+       
+       
+    }
 }
