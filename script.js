@@ -37,7 +37,7 @@ $(document).ready(function () {
               console.log(data.list[i].dt_txt);
 
               var code = [
-                '<div class="col-2 day">',
+                '<div class="col-lg-4 col-md-6 col-sm-6 day">',
                 '<p>',
                 data.list[i].dt_txt.split(' ')[0],
                 '</p>',
@@ -58,7 +58,7 @@ $(document).ready(function () {
               widget2 += code.join('');
             }
           }
-          $(".5day").html(widget2);
+          $(".fiveDay").html(widget2);
           $("#city").val('');
         }
 

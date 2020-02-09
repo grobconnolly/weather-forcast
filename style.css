@@ -6,17 +6,13 @@ background-color: rgb(213, 213, 213);
     width: 220px;
     height: 200px;
     background-color: #71b4e4;
-    position: relative;
     color:rgb(45, 45, 45);
     display: inline-table;
     border-style: solid;
     border-color: white;
-    
-   
-   
 }
 .bgMain {
-    margin-top: 1%;
+    
     background: rgb(173,201,221);
     background: linear-gradient(90deg, rgba(173,201,221,1) 0%, rgba(154,202,236,1) 46%, rgba(113,180,228,1) 79%, rgba(31,124,150,1) 100%, rgba(0,12,14,1) 100%);
     color: rgb(45, 45, 45);
@@ -39,12 +35,11 @@ input[type='submit']{
     width: 100px;
     background: blue;
 }
-
-.forecastBox {
- border-style: solid;
- border-color: #e7e7e7;
- border-width: 10px;
+.todayW{
+    background-color: white;
+    margin-top: 1%;
 }
+
 
 #searchForm1{
     right: 30%;
@@ -58,6 +53,15 @@ input[type='submit']{
 left: 190%;
 }
 
+.fiveDay {
+    width: auto;
+}
+
+.forecastBox {
+    border: solid white 3px;
+    background-color: white;
+
+}
 
 @media (max-width: 800px){
 

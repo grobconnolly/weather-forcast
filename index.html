@@ -33,55 +33,57 @@
         </div>
     </nav>
 
+
     <div class="container-fluid">
         <div class="row">
-            <div id="recentCity" class='col-md-2 col-sm-12'>
+            <div id="recentCity" class='col-md-2 col-sm-2'>
                 <h4 class="reser">Recent Searches:</h4>
-                <div class="row">
-                </div>
-                <div class="col-sm-6 cityPast" id="cityList">
+                <div class='row'>
+                      <div id="history"></div>
+                    <div class="cityPast" id="cityList">
                     </div>
+                </div>
             </div>
-            <div class='col-10'>
+        
 
+            <div class='col-md-10 col-sm-10 todayW'>
+            <h1 id="todayW"> Today's Weather</h1>
                 <!-- Thi is the div id = show to display the weather data. -->
                 <div class="bgMain" id="show">
                 </div>
             </div>
+            </div>
         </div>
     </div>
 
-        <div class='container-fluid'>
-            <div class=row>
-            </div>
-            <div class='col-md-2 col-sm-12'></div>
-        </div>
-        <div class='col-md-10 col-sm-12'>
 
-        </div>
-        <div class='row'>
+    
 
-        </div>
-        <div class='container-fluid'>
-        <div id="5dayforcast" class='row'>
-            <div id="history" class="col-md-2 col-sm-12">
+            <div class='container-fluid'>
+                <div class=row>
+                <div class='col-md-2 col-sm-2'></div>
+                <div class='col-md-10 col-sm-12'>
 
-            </div>
-            <div class="col-md-10 col-sm-12">
-                <h4>5 Day Forecast</h4>
-                <div class="row">
-                    <div class="col-12 5day">
+                    <div id="5dayforcast">
+                      
+
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 forecastBox">
+                            <h4>5 Day Forecast</h4>
+                            <div class="row">
+                                <div class="col-12 fiveDay">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"></div>
+                        <div class="col-2"></div>
+
 
                     </div>
                 </div>
             </div>
-            <div class="row"></div>
-            <div class="col-2"></div>
-
-
-        </div>
-    </div>
-    </div>
 
 
 
@@ -89,8 +91,8 @@
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="script.js"></script>
 </body>
 
 </html>
