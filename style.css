@@ -1,19 +1,26 @@
-.mainArea {
-
-    background-color: lightgray;
+body {
+background-color: rgb(213, 213, 213);
 }
 
 .day1, .day2, .day3, .day4, .day5, .day {
     width: 220px;
     height: 200px;
-    background-color: blue;
+    background-color: #71b4e4;
     position: relative;
-    color: white;
+    color:rgb(45, 45, 45);
     display: inline-table;
     border-style: solid;
     border-color: white;
-    border-width: 3px;
+    
    
+   
+}
+.bgMain {
+    margin-top: 1%;
+    background: rgb(173,201,221);
+    background: linear-gradient(90deg, rgba(173,201,221,1) 0%, rgba(154,202,236,1) 46%, rgba(113,180,228,1) 79%, rgba(31,124,150,1) 100%, rgba(0,12,14,1) 100%);
+    color: rgb(45, 45, 45);
+    border: solid 2px white;
 }
 
 .input{
@@ -51,3 +58,14 @@ input[type='submit']{
 left: 190%;
 }
 
+
+@media (max-width: 800px){
+
+    .reser {
+        font-size: 14px
+    }
+
+    #history {
+        font-size: 14px;
+    }
+}

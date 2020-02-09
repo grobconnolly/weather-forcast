@@ -8,7 +8,7 @@ $(document).ready(function () {
     e.preventDefault();
     var city = $('#city').val();
     searchHistory.push(city);
-    $("#history").text(searchHistory)
+    $("#history").html('<li>'+searchHistory+ '<br></li>')
     if (city != '') {
 
     
@@ -36,6 +36,7 @@ $(document).ready(function () {
                 '<p>',
                 data.list[i].dt_txt.split(' ')[0],
                 '</p>',
+                //weather icon
                 '<img src="http://openweathermap.org/img/wn/'+data.list[i].weather[0].icon+'@2x.png">',
                 '<p> Temp:',
                 data.list[i].main.temp,
@@ -67,9 +68,12 @@ function show(data) {
 
   console.log("show: ", data);
 
-  return data.city.name + ' (' + data.list[0].dt_txt.split(' ')[0] + ') </h3>' +
+
+  // return of today's weather 
+  return '<h3>' + data.city.name + ' (' + data.list[0].dt_txt.split(' ')[0] + ') </h3>' +
     '<p><strong>Temp: </strong>' + data.list[0].main.temp + ' degrees</p>' +
     '<p><strong>Humidity: </strong>' + data.list[0].main.humidity + ' %</p>' +
     '<p><strong>Wind Speed: </strong>' + data.list[0].wind.speed + ' MPH</p>';
-  //second function looking for forcast data for day 1
+  //second function looking for forcast data for day 1 ^^
 }
+
